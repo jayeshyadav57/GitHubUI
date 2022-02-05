@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+.container {
+  height: 100%;
+  background-color: rgb(23, 26, 34);
+  color: #f0fcf6;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+.heading {
+  display: flex;
+  padding: 16px 0px 16px 32px;
+  background: #161b22;
+  align-items: center;
+  height: 62px;
+}
+.search-box {
+  width: auto;
+}
+.search-box input {
+  border: none;
+  outline: none;
+  height: 28px;
+  font-size: 14px;
+  width: 100%;
+  margin: 0 10px;
+  background-color: rgb(13, 16, 22);
+  color: #ffffff;
+}
+.heading .search {
+  border: 1px solid #898c8e;
+  width: 272px;
+  height: 30px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  color: #f0fcf6;
+  margin-right: 16px;
+  background-color: rgb(13, 16, 22);
+}
+.heading .search .slash {
+  margin-left: auto;
+  margin-right: 0;
+  border: 1px solid #898c8e;
+  width: 20px;
+  color: #898c8e;
+  text-align: center;
+  border-radius: 4px;
+}
+.heading-list {
+  margin-right: 16px;
+}
+.heading .bell {
+  margin-left: auto;
+}
+.person-img img {
+  border-radius: 20px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  height: 100%;
+}
+section .sidebar-left {
+  background: rgb(13, 17, 23);
+  padding: 32px 24px;
+}
+section .content {
+  background: rgb(0, 4, 8);
+  padding: 32px 24px;
+}
+section .sidebar-right {
+  background: rgb(0, 4, 8);
+  padding: 32px 24px;
+}
+.sidebar-left .top-header {
+  display: flex;
+}
+.sidebar-left .top-header .new {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 28px;
+  width: 70px;
+  background-color: rgb(34, 135, 54);
+  border-radius: 4px;
+}
+.sidebar-left .search {
+  margin: 16px 0;
+}
+.sidebar-left .search input {
+  width: 100%;
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid #898c8e;
+  background: black;
+  color: #898c8e;
+  line-height: 1.5;
+}
+.item-box {
+  display: flex;
+  font-weight: 400;
+  gap: 10px;
+}
+.sidebar-left .sidebar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.hr-line {
+  outline: none;
+  border: none;
+  border-top: 1px solid #898c8e;
+  margin: 16px 0;
+}
+
+.sidebar-right {
+  padding: 32px 24px;
+}
+.sidebar-right .dialog-box {
+  background: tomato;
+  height: 200px;
+  width: 90%;
+  padding: 0 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid #898c8e;
+  color: #ffffff;
+  background: black;
+}
+.dialog-box .dialog-heading h4 {
+  text-align: center;
+}
+.dialog-content {
+  font-weight: 400;
+}
+.dialog-btn button {
+  padding: 2px 4px;
+  font-weight: 600;
+  border: 1px solid #898c8e;
+  color: #ffffff;
+  background: #898c8e;
+  border-radius: 4px;
+}
+
+.exploreRepo{
+  padding: 32px 12px;
+}
+.exploreRepo-heading{
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.exploreRepo-item{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.exploreRepo-list .item-heading{
+  font-weight: 500;
+  font-size: 14px;
+}
+.item-description{
+  font-weight: 300;
+  font-size: 13px;
+  color: #898c8e;
+}
+.item-footer{
+  display: flex;
+  gap: 10px;
+  color: #898c8e;
+}
+
+.content-heading{
+  font-size: 16px;
+  font-weight: normal;
+  color: #dddddd;
+  margin-bottom: 16px;
+}
+.card-item{
+  display: flex;
+  align-items: center;
+  color: #898c8e;
+  gap: 5px;
+}
+.bold{
+  color: #ffffff;
+}
+.card-main{
+  background: tomato;
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  background-color:#161b22;
+  border-radius: 4px;
+}
+.cardDis{
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 1.5;
+}
